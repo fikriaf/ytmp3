@@ -16,7 +16,7 @@ def show_loading():
         time.sleep(0.5)
 
 
-destination = r"C:\Users\Fikri\Music"
+destination = r"C:\Users\HYPE AMD\Music"
 while True:
     # url input from user
     url = str(input("\nMasukkan Link Youtube: \n>> "))
@@ -29,7 +29,7 @@ while True:
         print("[ Memulai Unduhan... ]")
         ydl_opts = {
             "format": "bestaudio/best",
-            "outtmpl": "C:\\Users\\Fikri\\Music\\%(title)s.mp3",
+            "outtmpl": "C:\\Users\\HYPE AMD\\Music\\%(title)s.mp3",
             "postprocessors": [
                 {
                     "key": "FFmpegExtractAudio",
@@ -51,7 +51,7 @@ while True:
         print("[ Mengulang Unduhan... ]")
         ydl_opts = {
             "format": "bestaudio/best",
-            "outtmpl": "C:\\Users\\Fikri\\Music\\%(title)s.mp3",
+            "outtmpl": "C:\\Users\\HYPE AMD\\Music\\%(title)s.mp3",
             "postprocessors": [
                 {
                     "key": "FFmpegExtractAudio",
